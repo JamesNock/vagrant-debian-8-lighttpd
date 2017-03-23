@@ -20,6 +20,8 @@ Run `vagrant up`
 
 This will take some time on first-run
 
+Once it's complete, you should be able to see the contents of `html/index.html` at http://127.0.0.1:8888/
+
 
 ## Disclaimer
 
