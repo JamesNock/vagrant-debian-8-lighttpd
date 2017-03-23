@@ -44,23 +44,23 @@ sudo apt-get -y install phpmyadmin
 sudo apt-get -y install curl
 
 # setup hosts file
-VHOST=$(cat <<EOF
-<VirtualHost *:80>
-    DocumentRoot "${PROJECTFOLDER}"
-    <Directory "${PROJECTFOLDER}">
-        AllowOverride All
-        Require all granted
-    </Directory>
-</VirtualHost>
-EOF
-)
-echo "${VHOST}" > /etc/apache2/sites-available/000-default.conf
+# VHOST=$(cat <<EOF
+# <VirtualHost *:80>
+#     DocumentRoot "${PROJECTFOLDER}"
+#     <Directory "${PROJECTFOLDER}">
+#         AllowOverride All
+#         Require all granted
+#     </Directory>
+# </VirtualHost>
+# EOF
+# )
+# echo "${VHOST}" > /etc/apache2/sites-available/000-default.conf
 
 # enable mod_rewrite
-sudo a2enmod rewrite
+# sudo a2enmod rewrite
 
 # restart apache
-service apache2 restart
+# service apache2 restart
 
 # install git
 sudo apt-get -y install git
