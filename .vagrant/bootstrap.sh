@@ -23,7 +23,7 @@ sudo apt-get -y upgrade
 # install apache 2.5 and php 5.5
 #sudo apt-get install -y apache2
 sudo apt-get install -y lighttpd
-sudo apt-get install -y php7.0
+sudo apt-get -y install php7.0-fpm php7.0
 
 # install mysql and give password to installer
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password $PASSWORD"
