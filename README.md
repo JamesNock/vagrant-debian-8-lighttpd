@@ -2,10 +2,10 @@
 
 The packaged configuration will provide you with the following:
 
-Linux - Debian GNU/Linux 8 (jessie)
-Lighttpd - latest
-MySQL - 5.5
-PHP - 7.0.1
+- Linux Debian GNU/Linux 8 (jessie)
+- Lighttpd latest
+- MySQL 5.5
+- PHP 7.0.1
 
 # Install Instructions
 
